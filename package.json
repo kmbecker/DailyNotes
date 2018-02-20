@@ -1,0 +1,29 @@
+{
+  "name": "dailynotes",
+  "version": "1.0.0",
+  "description": "news scraper that allows users to comment",
+  "main": "server.js",
+  "scripts": {
+    "test": "null"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kmbecker/DailyNotes.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kmbecker/DailyNotes/issues"
+  },
+  "homepage": "https://github.com/kmbecker/DailyNotes#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "hbs": "^4.0.1",
+    "mongoose": "^5.0.6",
+    "morgan": "^1.9.0",
+    "request": "^2.83.0"
+  }
+}

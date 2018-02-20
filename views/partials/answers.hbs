@@ -1,0 +1,16 @@
+		<div class="col col-sm-6 col-notes">
+			<button type="button" class="btn btn-large btn-create-note">Create a Note</button>
+
+		{{#each notes}}
+		<div class="single-note">
+			<h3>At {{created}}, {{username}} thought:</h3>
+			<p class="question">{{q1}}</p>
+			<p class="answer">{{a1}}</p>
+			<p class="question">{{q2}}</p>
+			<p class="answer">{{a2}}</p>
+			<p class="question">{{q3}}</p>
+			<p class="answer">{{a3}}</p>
+		</div>
+		{{/each}}
+
+		</div><!-- /col-notes -->

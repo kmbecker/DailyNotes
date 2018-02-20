@@ -1,0 +1,19 @@
+
+<div class="container-fluid container-detail">
+	<div class="row">
+		{{#article}}
+		<div class="col col-sm-6 col-article">
+			<h3 data-obj-id="{{article._id}}">{{title}}</h3>
+			<p>{{date}}</p>
+			<p>{{story}}</p>
+			<button type="button" class="btn btn-large btn-view-full"><a href="{{article.link}}" target="_blank">View Full Article</a></button>
+		</div><!-- /col-article -->
+		{{/article}}
+		{{#if showNotes}}
+			{{> answers}}
+		{{else}}
+			{{> questions}}
+		{{/if}}
+
+		</div><!-- /row -->
+</div><!-- /container-articles -->
